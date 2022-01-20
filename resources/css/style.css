@@ -1,0 +1,94 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+.a {
+  outline: 1px solid;
+  outline-offset: -1px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* header */
+.header {
+  height: 50px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  padding: 0 1rem;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  width: 160px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2.5rem;
+}
+
+.mega-menu {
+  height: 100%;
+  display: flex;
+}
+
+.mega-menu-btn {
+  background: white;
+  border: none;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  padding-top: 6px;
+  border-bottom: 3px solid transparent;
+}
+
+.mega-menu-btn:hover {
+  border-bottom: 3px solid red;
+}
+
+.mega-menu-btn > a {
+  text-decoration: none;
+  color: #333;
+}
+
+.btn-group {
+  margin-left: auto;
+  display: flex;
+  border: none;
+  background-color: blue;
+  cursor: pointer;
+  align-items: center;
+}
+
+.registeration {
+  height: 100%;
+  display: flex;
+
+.ads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12rem;
+}
