@@ -178,7 +178,28 @@ body {
   font-size: 20px;
 }
 
-/* section **************************************************/
+.search-container {
+  position: relative;
+}
+
+.search-btn {
+  position: absolute;
+  right: 0.3rem;
+  top: 0.25rem;
+  border: 0;
+  background-color: rgb(204, 2, 2);
+  border-radius: 99999px;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: rgb(163, 19, 19);
+}
+
+/* section1 **************************************************/
 .new-listings > h2 {
   margin-left: 2rem;
   margin-top: 7rem;
@@ -197,14 +218,17 @@ body {
 
 .row {
   display: flex;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
 }
 
 .column {
   flex: 1;
   border: 1px solid rgb(250, 247, 247);
-  box-shadow: 1px 1px 1px 1px rgb(241, 239, 239);
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  box-shadow: 0 0 0.5rem rgb(0, 0, 0, 0.1);
+  margin-left: 0.43rem;
+  margin-right: 0.43rem;
+  cursor: pointer;
 }
 
 .column > img {
@@ -222,4 +246,71 @@ body {
 .new-listings-cards > p {
   margin: 0%;
   margin-left: 5px;
+}
+
+/* section2************************************************** */
+.recommended > h2 {
+  margin-left: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 0.2rem;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.recommended > h4 {
+  margin-left: 2rem;
+  margin-top: 0.3rem;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(119, 117, 117);
+}
+
+.row2 {
+  display: flex;
+  margin-left: 1.2rem;
+  margin-right: 12rem;
+}
+
+.column2 {
+  flex: 1;
+  border: 1px solid rgb(250, 247, 247);
+  box-shadow: 0 0 0.5rem rgb(0, 0, 0, 0.1);
+  margin-left: 0.43rem;
+  margin-right: 0.43rem;
+  cursor: pointer;
+}
+
+.column2 > img {
+  width: 100%;
+  height: 65%;
+  object-position: center;
+  object-fit: cover;
+}
+
+/* section3***************************************** */
+.statistics > h2 {
+  margin-left: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.column3 {
+  flex: 1;
+  text-align: center;
+}
+
+.number {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(10, 129, 240);
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.column3 > p {
+  font-size: 16px;
+  color: rgb(95, 94, 94);
+  margin-top: 0;
 }
